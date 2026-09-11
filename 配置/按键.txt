@@ -1,0 +1,48 @@
+# ══════════════════════════════════════════════
+#   字幕开关 —— 按键配置
+# ══════════════════════════════════════════════
+#
+# 【怎么改】
+#   推荐：双击项目根目录的「改按键.bat」，按一下你想用的键就行。
+#   也可以直接改下面 [按键] 那一节，保存后重新双击「启动.bat」。
+#
+# 【键名怎么写】
+#   字母   KeyA … KeyZ
+#   数字   Digit0 … Digit9
+#   符号   Equal(=)  Minus(-)  Slash(/)  Backslash(\)  Comma(,)
+#          Period(.)  Semicolon(;)  Quote(')  BracketLeft([)  BracketRight(])
+#   其他   Space  Enter  Tab  Escape  Backquote(`)
+#
+# 【冲突清单】
+#   [冲突] 一节里列的键被 B站播放器自己占用了，选它们会导致
+#   一次按键触发两个功能，所以程序会拒绝。
+#
+#   如果 B站 以后改了快捷键，或者你确认某个键其实没被占用，
+#   把那一行删掉、或在行首加 # 注释掉即可。
+
+[按键]
+Backslash
+
+[冲突]
+Space        = 播放/暂停
+ArrowLeft    = 后退 5 秒
+ArrowRight   = 前进 5 秒（长按变 3 倍速）
+ArrowUp      = 音量 +10%
+ArrowDown    = 音量 -10%
+Escape       = 退出全屏
+Enter        = 聚焦弹幕输入框
+Tab          = 焦点切换
+KeyF         = 全屏
+KeyD         = 开/关弹幕
+KeyM         = 静音
+KeyQ         = 点赞（长按一键三连）
+KeyW         = 投币
+KeyE         = 收藏
+KeyR         = 长按一键三连
+KeyG         = 关注 UP 主
+BracketLeft  = 上一个 P
+BracketRight = 下一个 P
+Digit1       = 弹幕投票 1
+Digit2       = 弹幕投票 2
+Digit3       = 弹幕投票 3
+Digit4       = 弹幕投票 4
